@@ -1,13 +1,13 @@
 Package: IsolamentoSocial.Gtrends
-Title: What the Package Does (One Line, Title Case)
+Title: Relacao entre pesquisas no google por "coronavirus" e isolamento social
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+    person(given = "Paulo",
+           family = "Laurence",
+           role = c("aut", "cre"))
+Description: O objetivo deste repositório foi conduzir análises para ver a relação entre o número de buscas no google pelo termo "coronavirus" e a taxa de isolamento social no estado de SP e no Brasi. Para isso foram usados dados do governo de SP e do Apple mobility.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
