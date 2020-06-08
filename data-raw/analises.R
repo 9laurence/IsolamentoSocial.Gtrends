@@ -43,7 +43,7 @@ dados_sp2 %>%
        title = "Scatter plot entre as pesquisas no Google por 'coronavirus' e o Indice de
        Isolamento Social no estado de SP")+
   theme_classic()
-ggsave("data/scatterplot_sp.jpg")
+ggsave("data/scatterplot_sp1.jpg")
 
 # Analise visual atraves do tempo
 # Analise visual da correlacao
@@ -61,7 +61,7 @@ dados_sp2 %>%
   scale_color_manual(values = c("#ed1c24","#4285F4"))+
   theme_classic()+
   theme(legend.position = "bottom")
-ggsave("data/time_series_sp.jpg")
+ggsave("data/time_series_sp1.jpg")
 
 
 # Regressao linear
@@ -106,7 +106,7 @@ dados_br %>%
        title = "Scatter plot entre as pesquisas no Google por coronavirus e o Apple mobility
        no Brasil")+
   theme_classic()
-ggsave("data/scatterplot_br.jpg")
+ggsave("data/scatterplot_br1.jpg")
 
 # Analise visual atraves do tempo
 # Analise visual da correlacao
@@ -126,7 +126,7 @@ dados_br %>%
   scale_color_manual(values = c("#666666","#4285F4"))+
   theme_classic()+
   theme(legend.position = "bottom")
-ggsave("data/time_series_br.jpg")
+ggsave("data/time_series_br1.jpg")
 
 
 # Regressao linear
