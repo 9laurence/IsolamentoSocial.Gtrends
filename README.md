@@ -17,9 +17,7 @@ Também é possível analisarmos os dados perante o tempo. Para isso, foi feito 
 
 ![TS_sp](data/time_series_sp.jpg)
 
-Por fim, foi conduzida uma regressão linear entre esses dados. A variável preditora foi as buscas no google enquanto variável dependente foi o índice de isolamento social. Um total de 21.34% da variação nos dados do índice de isolamento social foram por conta do número de buscas no google, que seria uma medida de engajamento populacional com a pandemia. Os resultados na regressão podem ser encontrados a seguir.
-
-![lm_sp](data/lm_sp.txt)
+Por fim, foi conduzida uma regressão linear entre esses dados. A variável preditora foi as buscas no google enquanto variável dependente foi o índice de isolamento social. Um total de 21.34% da variação nos dados do índice de isolamento social foram por conta do número de buscas no google, que seria uma medida de engajamento populacional com a pandemia. Os resultados na regressão podem ser encontrados [nesse link](data/lm_sp.txt).
 
 
 ## Dados do Brasil
@@ -31,9 +29,8 @@ Igual foi feito com os dados de SP, também foi decidido apresentar os dados lin
 
 ![TS_br](data/time_series_br.jpg)
 
-Finalmente, também foi conduzida uma regressão linear entre os dados do território brasileiro. A variável preditora foi as buscas no google enquanto variável dependente foi os dados da Apple mobility. Um total de 32.48% da variação nos dados da Apple mobility foram por conta do número de buscas no google. Lembrando que essa medida seria uma medida de engajamento populacional com a pandemia. Os resultados na regressão podem ser encontrados a seguir.
+Finalmente, também foi conduzida uma regressão linear entre os dados do território brasileiro. A variável preditora foi as buscas no google enquanto variável dependente foi os dados da Apple mobility. Um total de 32.48% da variação nos dados da Apple mobility foram por conta do número de buscas no google. Lembrando que essa medida seria uma medida de engajamento populacional com a pandemia. Os resultados na regressão podem ser encontrados [nesse link](data/lm_br.txt).
 
-![lm_br](data/lm_br.txt)
 
 ## Conclusao
 Como hipotetizado, houve uma correlação entre os dados de engajamento para o isolamento social e o interesse populacional pelas buscas relacionadas ao coronavirus. Porém, é necessário ressaltar que as análises conduzidas aqui não são causais. Dessa forma, não é possível ter certeza da direção da relação. É possível discutir que há outras variáveis, que não foram exploradas, que podem estar exercendo algum efeito nas variáveis estudadas aqui. Uma possível ideia seria que com o passar do tempo, a população começaria aos poucos a sair de casa por conta de necessidades profissionais, e por conta disso a taxa de isolamento iria diminuir. Também, por conta de mais tempo fora de casa, as pessoas acabariam por fazer menos buscas no google para saber sobre o tema da pandemia, não indicando necessariamente um menor engajamento psicólogico, mas simplesmente por conta da falta de tempo.
