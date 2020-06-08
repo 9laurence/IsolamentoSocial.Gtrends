@@ -40,7 +40,7 @@ dados_sp2 %>%
   geom_smooth(method = lm, color = "red", fill = "red")+
   labs(x = "Pesquisas no Google pelo termo 'coronavirus'",
        y = "Indice de Isolamento Social em SP",
-       title = "Scatter plot entre as pesquisas no google por coronavirus e o Indice de
+       title = "Scatter plot entre as pesquisas no Google por 'coronavirus' e o Indice de
        Isolamento Social no estado de SP")+
   theme_classic()
 ggsave("data/scatterplot_sp.jpg")
@@ -54,9 +54,9 @@ dados_sp2 %>%
   geom_line()+
   labs(x = "Dias",
        y = "",
-       title = "Indice de isolamento social e pesquisas no google atraves do tempo",
+       title = "Indice de isolamento social e pesquisas no Google atraves do tempo",
        color = "Dado",
-       caption = "Linha pontilhada indica inicio da quarentena")+
+       caption = "Linha pontilhada indica inicio da quarentena.")+
   geom_vline(xintercept = as.numeric(dados_sp2$date[7]), linetype = 2)+
   scale_color_manual(values = c("#ed1c24","#4285F4"))+
   theme_classic()+
@@ -102,8 +102,8 @@ dados_br %>%
   geom_point()+
   geom_smooth(method = lm, color = "red", fill = "red")+
   labs(x = "Pesquisas no Google pelo termo 'coronavirus'",
-       y = "Apple mobility",
-       title = "Scatter plot entre as pesquisas no google por coronavirus e o Apple mobility
+       y = "Apple mobility no BR",
+       title = "Scatter plot entre as pesquisas no Google por coronavirus e o Apple mobility
        no Brasil")+
   theme_classic()
 ggsave("data/scatterplot_br.jpg")
@@ -117,10 +117,10 @@ dados_br %>%
   geom_line()+
   labs(x = "Dias",
        y = "",
-       title = "Apple mobility e pesquisas no google atraves do tempo",
+       title = "Apple mobility e pesquisas no Google atraves do tempo",
        color = "Dado",
        caption = "Linha pontilhada indica primeiro caso de COVID-19 no Brasil.
-       Linha solida indica momento que tranmissao comunitaria foi detectada no Brasil.")+
+       Linha solida indica momento que transmissao comunitaria foi detectada no Brasil.")+
   geom_vline(xintercept = as.numeric(dados_br$date[45]), linetype = 2)+
   geom_vline(xintercept = as.numeric(dados_br$date[64]), linetype = 1)+
   scale_color_manual(values = c("#666666","#4285F4"))+
