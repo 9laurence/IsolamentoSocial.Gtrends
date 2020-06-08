@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-O objetivo deste repositório foi conduzir análises para ver a relação entre o número de buscas no google pelo termo "coronavirus" e a taxa de isolamento social no estado de SP e no Brasil. Para isso foram usados dados do governo de SP e do Apple mobility.
+O objetivo deste repositório foi conduzir análises para ver a relação entre o número de buscas no google pelo termo "coronavirus" e a taxa de isolamento social no estado de SP e no Brasil. Para isso foram usados [dados do governo de SP](https://www.saopaulo.sp.gov.br/coronavirus/isolamento/) e do [Apple mobility](https://www.apple.com/covid19/mobility).
 
 Parte-se do pressuposto que número de pesquisas no Google com o termo "coronavirus" estaria relacionado com o engajamento da população em relação a pandemia. Dessa forma, quanto maior o número de pesquisas pelo termo "coronavirus", mais engajamento e mais interesse em se manter informado e se proteger nesse período de pandemia. Do contrário, quanto  menos buscas, menor o engajamento público com a pandemia, demonstrando menos interesse pelo tema. Sendo assim, um menor interesse poderia estar associado com um maior comportamento de risco em relação ao vírus. 
 
