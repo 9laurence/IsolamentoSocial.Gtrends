@@ -4,8 +4,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-O objetivo deste repositório foi conduzir análises para ver a analisar entre o número de buscas no google pelo termo "coronavirus" e a taxa de isolamento social no estado de SP e no Brasil. Para isso foram usados dados do governo de SP e do Apple mobility.
+O objetivo deste repositório foi conduzir análises para ver a relação entre o número de buscas no google pelo termo "coronavirus" e a taxa de isolamento social no estado de SP e no Brasil. Para isso foram usados dados do governo de SP e do Apple mobility.
+
 Parte-se do pressuposto que número de pesquisas no google com o termo "coronavirus" estaria relacionado com o engajamento da população em relação a pandemia. Dessa forma, quanto maior o número de pesquisas pelo termo "coronavirus", mais engajamento e mais interesse em se manter informado e se proteger nesse período de pandemia. Do contrário, quanto  menos buscas, menor o engajamento público com a pandemia, demonstrando menos interesse pelo tema. Sendo assim, um menor interesse poderia estar associado com um maior comportamento de risco em relação ao vírus. 
+
 Portanto, a hipótese do presente estudo foi de que quanto menor o número de buscas no google pelo termo "coronavirus", menor seria o engajamento público com o isolamento social. No caso dos dados de SP, era esperado uma relação positiva entre os dados do google e o índice de isolamento social, uma vez que os dados do índice de isolamento social são a porcentagem de pessoas que se mantiveram em isolamento. Já os dados do Brasil, esperou-se que houvesse uma correlação inversamente proporcional, tendo em vista que os dados do Apple mobility são a porcentagem de maior ou menor movimentação das pessoas com referência no dia 13 de janeiro de 2020. Logo, quanto maior o isolamento, o número do Apple mobility seria menor.
 
 ## Dados do Estado de SP
@@ -36,4 +38,5 @@ Finalmente, também foi conduzida uma regressão linear entre os dados do territ
 
 ## Conclusao
 Como hipotetizado, houve uma correlação entre os dados de engajamento para o isolamento social e o interesse populacional pelas buscas relacionadas ao coronavirus. Porém, é necessário ressaltar que as análises conduzidas aqui não são causais. Dessa forma, não é possível ter certeza da direção da relação. É possível discutir que há outras variáveis, que não foram exploradas aqui, que podem estar exercendo algum efeito nas variáveis aqui apresentadas. Uma possível explicação seria que com o passar do tempo, a população começaria aos poucos a sair de casa por conta de diversas necessidades (e.g., profissionais), e por conta disso a taxa de isolamento iria diminuir. Também, por conta de mais tempo fora de casa, as pessoas acabariam por fazer menos buscas no google para saber sobre o tema da pandemia, não indicando necessariamente um menor engajamento psicólogico, mas simplesmente por conta da falta de tempo.
+
 De qualquer forma, os resultados aqui apresentados possuem sua validade na forma como as pessoas tem lidado com a pandemia e quais comportamentos elas apresentam em decorrência disso. Novas análises são necessárias para se entender melhor a relação entre as medidas aqui estudadas.
