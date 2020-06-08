@@ -25,7 +25,12 @@ dados_sp2 %>% select_if(is.numeric) %>%
 
 # Dados nao apresentam normalidade, por conta disso sera usado o Coeficiente
 # de correlação de postos de Spearman
+# Dados cortados
 cor.test(dados_sp2$google_trends, dados_sp2$indice_isolamento,
+         method = "spearman")
+
+# Dados inteiros
+cor.test(dados_sp$google_trends, dados_sp$indice_isolamento,
          method = "spearman")
 
 # Analise visual da correlacao
